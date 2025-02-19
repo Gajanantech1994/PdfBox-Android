@@ -1401,7 +1401,7 @@ public class COSWriter implements ICOSVisitor, Closeable
             MessageDigest md5;
             try
             {
-                md5 = MessageDigest.getInstance("MD5");
+                md5 = MessageDigest.getInstance("SHA-256");
             }
             catch (NoSuchAlgorithmException e)
             {
